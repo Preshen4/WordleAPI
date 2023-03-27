@@ -8,7 +8,7 @@ namespace WordleAPI.Controllers
     public class WordsController : ControllerBase
     {
         private static readonly string[] words = new string[10]
-        { "apple" ,"bread", "climb", "dance", "every", "flour", "grape", "happy", "igloo", "juice" };
+        {"bread", "every", "climb", "dance", "flour", "igloo", "happy", "juice", "grape", "apple" };
 
         // GET: api/<WordsController>
         [HttpGet("All")]
